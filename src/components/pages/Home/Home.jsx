@@ -82,9 +82,10 @@ function Home() {
             <div className="card" >
 
                 <div className="card-body">
-                    <h5 className="card-title">Перейти на страницу редактора</h5>
+                    <h5 className="card-title">Перейти на страницу менеджера</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <Link className="btn btn-primary" to={`/editor/`}>К странице редактора</Link>
+                    <Link className="btn btn-primary" to={`/editor/edit`}>К странице редактора</Link>
+                    <Link className="btn btn-primary" to={`/editor/view`}>К странице просмотра редактора</Link>
                 </div>
             </div>
             <div className="card" >

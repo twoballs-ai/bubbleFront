@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Outlet } from "react-router-dom"
 
 
-function DashMain() {
+function CreatorPage() {
   return (
     <>
 
@@ -16,4 +16,4 @@ function DashMain() {
 
 }
 
-export default DashMain
+export default CreatorPage
